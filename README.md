@@ -37,7 +37,7 @@ For this project, two model was selected:
 2. Logistic regression model
 
 Before using this model we used a pair plot to simply visualize the model.
-![](images/tải xuống.png)
+![](images/bird.jpg)
 We believe the distribution is 'normal' enough to perform a regression model.
 
 3. Result

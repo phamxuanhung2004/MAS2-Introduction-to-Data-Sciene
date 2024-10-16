@@ -12,7 +12,9 @@ horrified the international community and led towards action taking by formulati
 2. Methodology
 
 2.1. Source of data
+
 We will use the provided data which come from Kaggle. Kaggle give us two excel files which include file for training and for testing model. All given file is also included in our github project. Beside, we will connect both files to make some overview analysing.
 2.2. Variable selection
+
 
 For this project we will limit at three varible to keep the result explainable. Beside, we do not w

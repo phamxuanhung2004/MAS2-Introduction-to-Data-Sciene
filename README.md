@@ -13,7 +13,7 @@ horrified the international community and led towards action taking by formulati
 
 2.1. Source of data
 
-We will use the provided data which come from Kaggle. Kaggle give us two excel files which include file for training and for testing model. We intend to use one file for training and one file for testing but i find out the the testing file did not include the survived index so in this report the only file that we use will be 
+We will use the provided data which come from Kaggle. Kaggle give us two excel files which include file for training and for testing model. We intend to use one file for training and one file for testing but i find out the the testing file did not include the survived index so in this report the only file that we use will be ![](train.csv)
 2.2. Variable selection
 
 

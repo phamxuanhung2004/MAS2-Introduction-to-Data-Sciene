@@ -13,7 +13,7 @@ horrified the international community and led towards action taking by formulati
 
 2.1. Source of data
 
-We will use the provided data which come from Kaggle. Kaggle give us two excel files which include file for training and for testing model. We intend to use one file for training and one file for testing but we find out the the testing file did not include the survived index so in this report the only file that we use will be ![](train.csv)
+We will use the provided data which come from Kaggle. Kaggle give us two excel files which include file for training and for testing model. We intend to use one file for training and one file for testing but we find out the the testing file did not include the survived index so in this report the only file that we use will be train.csv.
 2.2. Variable
 
 2.2.1. Data dictionary
@@ -37,7 +37,7 @@ For this project, two model was selected:
 2. Logistic regression model
 
 Before using this model we used a pair plot to simply visualize the model.
-![](images/bird.jpg)
+![](images/Visualize.png)
 We believe the distribution is 'normal' enough to perform a regression model.
 
 3. Result

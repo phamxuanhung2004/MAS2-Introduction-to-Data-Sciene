@@ -49,7 +49,15 @@ After training the model, we have an output which is this equation:
 
 ŷ= 0.40 + -0.16 * Pclass + -0.07 * Age + -0.22 * Sex
 
+The result was round up to two decimals. 
+
+When using a sklearn model to evaluate the score, we receive the value at 0.46. This number tells us the pattern was not significant, actually it just a moderate relationship. 
+We also use OLS Regression Result to see if there are anything 
+
 ![](images/OLS_Regression_Result.png)
 
+As we did not receive a strong score, we decided to optimize our model by using a lasso and ridge model. But unforturnately it did not provide a better result, the lasso model that we use(with lambda =0.1) provided a score equal to 0.32 and the ridge model(with lambda= 2) provide a score at approxiamately at 0.46 which is quite close to the orginal model.
+
+So is this a bad model? 
 
 e

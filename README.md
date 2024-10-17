@@ -17,6 +17,7 @@ We will use the provided data which come from Kaggle. Kaggle give us two excel f
 2.2. Variable
 
 2.2.1. Data dictionary
+
 The table was provided by Kaggle. 
 
 

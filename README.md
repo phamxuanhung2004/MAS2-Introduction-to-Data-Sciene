@@ -20,7 +20,7 @@ We will use the provided data which come from Kaggle. Kaggle give us two excel f
 
 The table was provided by Kaggle. 
 
-![](
+![](images/dictionary-table.png)
 
 2.2.2. Variable Selection
 There are many variable provided, but in the model, we decide to use only three independent variables which is Sex, Age and Pclass. For dependent variable, we will use survived for our model. 

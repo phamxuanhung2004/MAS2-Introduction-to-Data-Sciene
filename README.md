@@ -47,6 +47,7 @@ III. Result
 3.1 Linear regression
 After training the model, we have an output which is this equation:
 
+
 ŷ= 0.40 + -0.16 * Pclass + -0.07 * Age + -0.22 * Sex
 
 The result was round up to two decimals. 

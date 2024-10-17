@@ -23,6 +23,7 @@ The table was provided by Kaggle.
 ![](images/dictionary-table.png)
 
 2.2.2. Variable Selection
+
 There are many variable provided, but in the model, we decide to use only three independent variables which is Sex, Age and Pclass. For dependent variable, we will use survived for our model. 
 The reason why only three were selected because we want to keep our model clear enough for us to analyse, beside some variable are not need for the model like Passengerid, Name, Ticket or even Fair(as it might have a correlation to the Pclass). Also, we do not want our model to have 'Curse of dimentionality' or 'Multicollinearity'. But why is this three variable instead of others? This actually have a quanlitative reason. We have read some article about this incident and we figure out some attribute of the survivor which related more to their age, gender and their wealth than the other so we decide to build a model based on them.
 
@@ -45,9 +46,10 @@ We believe the distribution is 'normal' enough to perform a regression model.
 III. Result
 3.1 Linear regression
 After training the model, we have an output which is this equation:
+
 ŷ= 0.40 + -0.16 * Pclass + -0.07 * Age + -0.22 * Sex
 
-
+![](images/OLS_Regression_Result.png)
 
 
 e

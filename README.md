@@ -62,13 +62,13 @@ In this report the only model will be use which is linear regression model.
 
 ## III. Result
 
-After training our model we come up with a equation like below:
+After training our model, we come up with a equation like below:
 
 **` ŷ= 0.40 + -0.16 * Pclass + -0.07 * Age + -0.22 * Sex `**
 
-This equation indicate that the decrease in Pclass and the increase in Age will lead to the decrease in the total resule. If the gender is male(which is one in the model) will also decrease the survivor chance.
+This equation indicate that the decrease in Pclass & the increase in Age will lead to the decrease in the total resule. If the gender is male(which is one in the model) will also decrease the survivor chance.
 
-But is this model reliable? If we looking at OLS Regression Result, we can see that the **all of the P-value is really small**, which is a good sign as every varible that we use are significant. 
+But is this model reliable? If we looking at OLS Regression Result, we can see that **all of the P-value is really small**, which is a good sign as every varible that we use are significant. 
 
 But when we looking at the R square: **0.37** - not a really good & strong relationship but in fact, it is actually a moderate relationship. 
 

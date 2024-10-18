@@ -68,9 +68,9 @@ After training our model, we come up with a equation like below:
 
 This equation indicates that the decrease in Pclass & the increase in Age will lead to the decrease in the total resule. If the gender is male(which is one in the model) will also decrease the survivor chance.
 
-But is this model reliable? If we looking at OLS Regression Result, we can see that **all of the P-value is really small**, which is a good sign as every variables that we use are significant. 
+But is this model reliable? If we look at OLS Regression Result, we can see that **all of the P-value is really small**, which is a good sign as every variables that we use are significant. 
 
-But when we looking at the R square: **0.37** - not a really good & strong relationship but in fact, it is actually a moderate relationship. 
+But when we look at the R square: **0.37** - not a really good & strong relationship but in fact, it is actually a moderate relationship. 
 
 ![](images/OLS_Regression_Result1.png)
 

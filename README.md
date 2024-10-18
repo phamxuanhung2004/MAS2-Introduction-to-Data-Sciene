@@ -1,19 +1,18 @@
 Group 7 report about Titanic incident analyzing
 
 Abstract 
-This report was written to create a model capable of predicting whether a traveler survived or not. In the model, Gender, Age and Pclass will be included and we will use two machine learning method which is Linear regression and Logistic regression to predict survival chance. Two model will be compared to each other and to the base to find predicting accuracy. Lastly, we will try to deduce the result that we have.
+This report was written to create a model capable of predicting whether a traveler survived or not. In the model, Gender, Age and Pclass will be included and we will use two machine learning method which is Linear regression.
 
-I. Introduction
+I.Introduction
 
-Titanic has always been an disaster when talking about voyage. The incident took place way back on April 15th, 1912, when the Titanic
-sank during its first voyage after striking an iceberg, resulting in the tragic loss of 1502 passengers and crew out of a total of 2224.This sensational tragedy
-horrified the international community and led towards action taking by formulating better safety regulations for ships. While it is still controversial about who took responsibility of the incident, we can agree that there are certain characteristics share between survivors. In this report, we try to find out what features will likely make a individual survive in the Titanic incident and perhaps in a disaster as a whole.
-
+Incident can happen anytime in any era. While it takes away money, asset and human life sometimes it still can spare some survivors. When looking at the data about some incident, we question ourself, are survivors predictable? Looking at the chart you can see that with the change in gender the percent that one can survive have already been significantly different.  In other words, we want to find out a feature that will make an individual more likely to survive in an incident. This report will use some predict model to answer this question. 
+!{}()
+While there is many infamous incident, the data we will use belong to Titanic incident which happen in 1911. On that ship in 4/1911, there was 2204 and there was only 1502 people suvived.
 II. Methodology
 
 2.1. Source of data
 
-We will use the provided data which come from Kaggle. Kaggle give us two excel files which include file for training and for testing model. We intend to use one file for training and one file for testing but we find out the the testing file did not include the survived index so in this report the only file that we use will be train.csv.
+We will use the provided data which come from Kaggle. Kaggle give us two excel files which include file for training and for testing model. We will only use train.csv for our model.
 2.2. Variable
 
 2.2.1. Data dictionary
@@ -24,41 +23,20 @@ The table was provided by Kaggle.
 
 2.2.2. Variable Selection
 
-There are many variable provided, but in the model, we decide to use only three independent variables which is Sex, Age and Pclass. For dependent variable, we will use survived for our model. 
-The reason why only three were selected because we want to keep our model clear enough for us to analyse, beside some variable are not need for the model like Passengerid, Name, Ticket or even Fair(as it might have a correlation to the Pclass). Also, we do not want our model to have 'Curse of dimentionality' or 'Multicollinearity'. But why is this three variable instead of others? This actually have a quanlitative reason. We have read some article about this incident and we figure out some attribute of the survivor which related more to their age, gender and their wealth than the other so we decide to build a model based on them.
+In the model we created, we will only use three variable which is Sex, Age and Pclass.
 
-2.3. Preprocessing data
+2.2.3. Preprocessing data
 
-The data that we receive is not cleaned. There are numerous of null value in the Age column, beside the model can run on str data like what we have in Sex column.
-For Age column we decide to drop all the null value, as the Age of a passager is not depend on the other on the ship, so we think to fill in all the null value by mean or median of the column might have a negative effect on our model. More accurate age prediction will involve machine learning model, which we believe is not the focus in this course so we will not add it into our research. 
-For Sex column, we will convert the male/female into 1/0 using:
-X['Sex'] = X['Sex'].apply(lambda x: 1 if x == 'male' else 0)
+As the age is hard to predict, for null value in the Age column, we decide to drop it. 
+As for Sex, we will change variable into 1/0(male/female).
 
-2.4. Models Used
-For this project, two model was selected:
-1. Linear regression model  
-2. Logistic regression model
-
-Before using this model we used a pair plot to simply visualize the model.
-![](images/Visualize.png)
-We believe the distribution is 'normal' enough to perform a regression model.
+2.2.4. Model
+In this report only two model will be use which is linear regression model.
 
 III. Result
-3.1 Linear regression
-After training the model, we have an output which is this equation:
-
-
+After training our model we come up with a equation like below:
 ŷ= 0.40 + -0.16 * Pclass + -0.07 * Age + -0.22 * Sex
 
-The result was round up to two decimals. 
+This equation indicate that the decrease in Pclass and the increase in Age will lead to the decrease in the total resule. If the gender is male(which is one in the model) will also decrease the survivor chance.
 
-When using a sklearn model to evaluate the score, we receive the value at 0.46. This number tells us the pattern was not significant, actually it just a moderate relationship. 
-We also use OLS Regression Result to see if there are anything 
-
-![](images/OLS_Regression_Result.png)
-
-As we did not receive a strong score, we decided to optimize our model by using a lasso and ridge model. But unforturnately it did not provide a better result, the lasso model that we use(with lambda =0.1) provided a score equal to 0.32 and the ridge model(with lambda= 2) provide a score at approxiamately at 0.46 which is quite close to the orginal model.
-
-So is this a bad model? 
-
-e
+But is this model reliable? If we looking at 

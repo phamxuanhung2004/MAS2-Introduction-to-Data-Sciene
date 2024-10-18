@@ -10,7 +10,7 @@ I.Introduction
 
 Incident can happen anytime in any era. While it takes away money, asset and human life sometimes it still can spare some survivors. When looking at the data about some incident, we question ourself, are survivors predictable? Looking at the chart you can see that with the change in gender the percent that one can survive have already been significantly different.  In other words, we want to find out a feature that will make an individual more likely to survive in an incident. This report will use some predict model to answer this question. 
 !{}()
-While there is many infamous incident, the data we will use belong to Titanic incident which happen in 1911. On that ship in 4/1911, there was 2204 and there was only 1502 people suvived.
+While there is many infamous incident, the data we will use belong to Titanic incident which happen in 1911. On that ship in 4/1911, there was 2204 people and  only 1502 those one who suvived.
 
 II. Methodology
 

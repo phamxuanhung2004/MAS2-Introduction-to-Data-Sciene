@@ -6,7 +6,7 @@
 
 **`In the model: Gender,Age & Pclass will be included and we will use 2 Machine Learning Method (Linear regression) `**
 
----
+--
 
 ## I. Introduction
 Incident can happen anytime in any era. While it takes away money, asset and human life sometimes it still can spare some survivors. 

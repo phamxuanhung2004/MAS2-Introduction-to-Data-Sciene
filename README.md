@@ -11,19 +11,19 @@
 ## I. Introduction
 Incident can happen anytime in any era. While it takes away money, asset and human life sometimes it still can spare some survivors. 
 
-When looking at the data about some incident, we question ourself, are survivors predictable? 
+When looking at the data about some incidents, we question ourselves, are survivors predictable? 
 
-Looking at the chart you can see that with the change in gender the percent that one can survive have already been significantly different.  
+Looking at the chart you can see that with the change in gender, the percent that one can survive have already been significantly different.  
 
 In other words, we want to find out a feature that will make an individual more likely to survive in an incident. 
 
-This report will use some predict model to answer this question. 
+This report will use some predict models to answer this question. 
 
 ![](images/maleversusfemale.png)
 
-While there is many infamous incident, the data we will use belong to Titanic incident which happen in 1911. 
+While there are many infamous incidents, the data we will use belong to Titanic incident which happened in 1911. 
 
-On that ship in 4/1911, there was 2204 and there was **`only 1502 people suvived`**.
+From 2204 individuals on that ship in 4/1911, there was **`only 1502 people suvived`** after the accident.
 
 ---
 
@@ -31,9 +31,9 @@ On that ship in 4/1911, there was 2204 and there was **`only 1502 people suvived
 
 ### 2.1. Source of data
 
-We will use the provided data which come from Kaggle. 
+We will use the provided data which comes from Kaggle. 
 
-Kaggle give us two excel files which include file for training and for testing model. We will only use train.csv for our model.
+Kaggle gives us two excel files which include file for training and for testing model. We will only use train.csv for our model.
 
 ### 2.2. Variable
 
@@ -47,7 +47,7 @@ The table was provided by Kaggle.
 
 ![](images/coefficientvisualization1.png)
 
-In the model we created, we will only use three variable which is **Sex Age Pclass**.
+In the model we created, we will only use three variables which is **Sex Age Pclass**.
 
 ### 2.2.3. Preprocessing data
 
@@ -66,9 +66,9 @@ After training our model, we come up with a equation like below:
 
 **` ŷ= 0.40 + -0.16 * Pclass + -0.07 * Age + -0.22 * Sex `**
 
-This equation indicate that the decrease in Pclass & the increase in Age will lead to the decrease in the total resule. If the gender is male(which is one in the model) will also decrease the survivor chance.
+This equation indicates that the decrease in Pclass & the increase in Age will lead to the decrease in the total resule. If the gender is male(which is one in the model) will also decrease the survivor chance.
 
-But is this model reliable? If we looking at OLS Regression Result, we can see that **all of the P-value is really small**, which is a good sign as every varible that we use are significant. 
+But is this model reliable? If we looking at OLS Regression Result, we can see that **all of the P-value is really small**, which is a good sign as every variables that we use are significant. 
 
 But when we looking at the R square: **0.37** - not a really good & strong relationship but in fact, it is actually a moderate relationship. 
 
@@ -76,7 +76,7 @@ But when we looking at the R square: **0.37** - not a really good & strong relat
 
 So, should we keep trusting the model? Even though the R square is not significant enough, I think the model that we create is still acceptable.
 
-Beside, when we using score funcition to evaluate the R square it give us **0.46** which is a better result.
+Beside, when we use score funcition to evaluate the R square, it gives us **0.46** which is a better result.
 
 ![](images/Score-result.png)
 
@@ -84,11 +84,11 @@ Beside, when we using score funcition to evaluate the R square it give us **0.46
 
 ## IV. Discussion
 
-When analyzing this model, it tells us something about the attribute that make we survive. 
+When analyzing this model, it tells us something about the attribute that makes we survive. 
 
-First: **Gender & Age** - it actually is commonsense. In every incident, woman, the young and the old is always priority. They are the group which are more likely to receive a rescue boat than the male and adult. It may also explain why the Age value in the model has the coefficent at only **0.08** as not only the young being priority but also the old. 
+First: **Gender & Age** - it is actually commonsense. In every incident, woman, the young and the old is always priority. They are the group which are more likely to receive a lifeboat than the male and adult. It may also explain why the Age value in the model has the coefficent at only **0.08** as not only the young being priority but also the old. 
 
-Second: **PClass** - it highly recommend that if you book the higher class in a cuisine, it is more likely that you will survived. Perhaps, it happens as the higher class in a voyager is equiped with more emergency equipment that those from lower class, they have more chance to access rescue transportation than the other.
+Second: **PClass** - it highly recommends that if you book the higher class in a cuisine, it is more likely that you will survived. Perhaps, it happens as the higher class in a voyager is equipped with more emergency equipment that the individuals from lower class have more chance to access rescue transportation than the other people in different classes.
 
 ---
 
@@ -96,6 +96,6 @@ Second: **PClass** - it highly recommend that if you book the higher class in a 
 
 In the last, we want to disclaim that, there will be other models which have the capability to explain the data better than the model we use, but the linear model that we use can easily understand and analyze for most of people. 
 
-Another thing we want to discuss is that this incident is quite "specific", as there are many kind of transportation accident, plus Titanic happened along time ago so it might be a little out of date with the technology, mindset and culture today. 
+Another thing we want to discuss is that this incident is quite "specific", as there are many kinds of transportation accidents, plus Titanic happened along time ago so it might be a little out of date with the technology, mindset and culture today. 
 
 But we highly believe that the attribute we chose which is sex, age and pclass in any era still have a big impact in the survival rate of a passenger.

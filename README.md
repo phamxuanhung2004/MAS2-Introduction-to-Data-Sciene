@@ -1,6 +1,6 @@
 # Group 7 Report: 🚢 Titanic Incident Analyzing
 
-**`Abstract:`**
+*`Abstract:`*
 
 **`This report was written to create a model capable of predicting whether a traveler survived or not. `**
 

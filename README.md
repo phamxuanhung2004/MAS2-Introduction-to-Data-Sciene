@@ -6,6 +6,7 @@
 
 **`In the model: Gender,Age & Pclass will be included and we will use 2 Machine Learning Method (Linear regression) `**
 
+---
 
 ## I. Introduction
 

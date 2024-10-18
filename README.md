@@ -53,7 +53,7 @@ In the model we created, we will only use three variable which is **Sex Age Pcla
 
 As the Age is hard to predict, for Null values in the Age column, we decide to drop it. 
 
-As for Sex, we will change variable into 1/0(male/female).
+As for Sex, we will change variable into **1 (male) / 0 (female)**
 
 ### 2.2.4. Model
 In this report the only model will be use which is linear regression model.

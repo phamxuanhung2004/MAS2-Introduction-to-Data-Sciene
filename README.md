@@ -20,7 +20,9 @@ This report will use some predict model to answer this question.
 
 ![](images/maleversusfemale.png)
 
-While there is many infamous incident, the data we will use belong to Titanic incident which happen in 1911. On that ship in 4/1911, there was 2204 and there was only 1502 people suvived.
+While there is many infamous incident, the data we will use belong to Titanic incident which happen in 1911. 
+
+On that ship in 4/1911, there was 2204 and there was only 1502 people suvived.
 
 II. Methodology
 

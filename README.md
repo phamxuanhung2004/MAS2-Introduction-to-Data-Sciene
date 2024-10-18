@@ -4,7 +4,7 @@
 
 **`This report was written to create a model capable of predicting whether a traveler survived or not. `**
 
-**`In the model, Gender, Age and Pclass will be included and we will use two machine learning method which is Linear regression `**
+**`In the model: Gender,Age & Pclass will be included and we will use 2 Machine Learning Method (Linear regression) `**
 
 I.Introduction
 

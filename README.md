@@ -31,6 +31,7 @@ On that ship in 4/1911, there was 2204 and there was only 1502 people suvived.
 2.1. Source of data
 
 We will use the provided data which come from Kaggle. Kaggle give us two excel files which include file for training and for testing model. We will only use train.csv for our model.
+
 2.2. Variable
 
 2.2.1. Data dictionary
@@ -42,17 +43,20 @@ The table was provided by Kaggle.
 2.2.2. Variable Selection
 
 ![](images/coefficientvisualization1.png)
+
 In the model we created, we will only use three variable which is Sex, Age and Pclass.
 
 2.2.3. Preprocessing data
 
 As the age is hard to predict, for null value in the Age column, we decide to drop it. 
+
 As for Sex, we will change variable into 1/0(male/female).
 
 2.2.4. Model
 In this report the only model will be use which is linear regression model.
 
 III. Result
+
 After training our model we come up with a equation like below:
 
 ŷ= 0.40 + -0.16 * Pclass + -0.07 * Age + -0.22 * Sex

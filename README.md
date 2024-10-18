@@ -2,9 +2,9 @@
 
 ***`Abstract:`***
 
-`This report was written to create a model capable of predicting whether a traveler survived or not. `
+`This report was written to create a model capable of predicting whether a traveler survived or not `
 
-`In the model: Gender,Age & Pclass will be included and we will use 2 Machine Learning Method (Linear regression) `
+`In the model: Gender,bAge & Pclass will be included and we will use 2 Machine Learning Method (Linear regression) `
 
 ---
 

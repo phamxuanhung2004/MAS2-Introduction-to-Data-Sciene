@@ -47,11 +47,11 @@ The table was provided by Kaggle.
 
 ![](images/coefficientvisualization1.png)
 
-In the model we created, we will only use three variable which is Sex, Age and Pclass.
+In the model we created, we will only use three variable which is **Sex Age Pclass**.
 
 ### 2.2.3. Preprocessing data
 
-As the age is hard to predict, for null value in the Age column, we decide to drop it. 
+As the Age is hard to predict, for null value in the Age column, we decide to drop it. 
 
 As for Sex, we will change variable into 1/0(male/female).
 
@@ -64,7 +64,7 @@ In this report the only model will be use which is linear regression model.
 
 After training our model we come up with a equation like below:
 
-****` ŷ= 0.40 + -0.16 * Pclass + -0.07 * Age + -0.22 * Sex `****
+**` ŷ= 0.40 + -0.16 * Pclass + -0.07 * Age + -0.22 * Sex `**
 
 This equation indicate that the decrease in Pclass and the increase in Age will lead to the decrease in the total resule. If the gender is male(which is one in the model) will also decrease the survivor chance.
 

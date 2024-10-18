@@ -9,8 +9,8 @@
 I.Introduction
 
 Incident can happen anytime in any era. While it takes away money, asset and human life sometimes it still can spare some survivors. When looking at the data about some incident, we question ourself, are survivors predictable? Looking at the chart you can see that with the change in gender the percent that one can survive have already been significantly different.  In other words, we want to find out a feature that will make an individual more likely to survive in an incident. This report will use some predict model to answer this question. 
-!{}()
-While there is many infamous incident, the data we will use belong to Titanic incident which happen in 1911. On that ship in 4/1911, there was 2204 people and  only 1502 those one who suvived.
+!{}(images/maleversusfemale.png)
+While there is many infamous incident, the data we will use belong to Titanic incident which happen in 1911. On that ship in 4/1911, there was 2204 and there was only 1502 people suvived.
 
 II. Methodology
 
@@ -27,6 +27,7 @@ The table was provided by Kaggle.
 
 2.2.2. Variable Selection
 
+![](images/coefficientvisualization1.png)
 In the model we created, we will only use three variable which is Sex, Age and Pclass.
 
 2.2.3. Preprocessing data
@@ -56,15 +57,11 @@ Beside, when we using score funcition to evaluate the R square it give us 0.46 w
 
 IV. Discussion
 
-When analyzing this model, it tells us something about the attribute that make travelers survived. 
+When analyzing this model, it tells us something about the attribute that make we survive. 
 First is about gender and age, it actually is commonsense. In every incident, woman, the young and the old is always priority. They are the group which are more likely to receive a rescue boat than the male and adult. It may also explain why the Age value in the model has the coefficent at only 0.08 as not only the young being priority but also the old. 
 
-Second is PClass, it highly recommend that if travelers book the higher class in a voyage, it is more likely that they will survived. Perhaps, it happens as the higher class in a voyage was equipped with more emergency tools that those from lower class, they tend to have more chance to access rescue transportation than the other.
+Second is PClass, it highly recommend that if you book the higher class in a cuisine, it is more likely that you will survived. Perhaps, it happens as the higher class in a voyager is equiped with more emergency equipment that those from lower class, they have more chance to access rescue transportation than the other.
 
 V. Conclusion
 
 In the last, we want to disclaim that, there will be other models which have the capability to explain the data better than the model we use, but the linear model that we use can easily understand and analyze for most of people. Another thing we want to discuss is that this incident is quite "specific", as there are many kind of transportation accident, plus Titanic happened along time ago so it might be a little out of date with the technology, mindset and culture today. But we highly believe that the attribute we chose which is sex, age and pclass in any era still have a big impact in the survival rate of a passenger.
-
-
-
-

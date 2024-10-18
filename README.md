@@ -55,7 +55,7 @@ As for Sex, we will change variable into 1/0(male/female).
 ### 2.2.4. Model
 In this report the only model will be use which is linear regression model.
 
-# III. Result
+## III. Result
 
 After training our model we come up with a equation like below:
 

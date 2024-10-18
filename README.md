@@ -24,7 +24,8 @@ While there is many infamous incident, the data we will use belong to Titanic in
 
 On that ship in 4/1911, there was 2204 and there was only 1502 people suvived.
 
-II. Methodology
+
+### II. Methodology
 
 2.1. Source of data
 

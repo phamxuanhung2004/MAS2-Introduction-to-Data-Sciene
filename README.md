@@ -51,7 +51,7 @@ In the model we created, we will only use three variable which is **Sex Age Pcla
 
 ### 2.2.3. Preprocessing data
 
-As the Age is hard to predict, for null value in the Age column, we decide to drop it. 
+As the Age is hard to predict, for Null values in the Age column, we decide to drop it. 
 
 As for Sex, we will change variable into 1/0(male/female).
 

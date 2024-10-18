@@ -9,7 +9,6 @@
 ---
 
 ## I. Introduction
-
 Incident can happen anytime in any era. While it takes away money, asset and human life sometimes it still can spare some survivors. 
 
 When looking at the data about some incident, we question ourself, are survivors predictable? 

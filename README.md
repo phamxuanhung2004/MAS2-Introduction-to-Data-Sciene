@@ -1,4 +1,4 @@
-# Group 7 Report: Titanic Incident Analyzing
+# Group 7 Report: 🚢 Titanic Incident Analyzing
 
 **`Abstract:`**
 

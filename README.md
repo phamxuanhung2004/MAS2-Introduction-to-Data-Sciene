@@ -28,13 +28,13 @@ On that ship in 4/1911, there was 2204 and there was only 1502 people suvived.
 
 ### II. Methodology
 
-2.1. Source of data
+# 2.1. Source of data
 
 We will use the provided data which come from Kaggle. Kaggle give us two excel files which include file for training and for testing model. We will only use train.csv for our model.
 
-2.2. Variable
+# 2.2. Variable
 
-2.2.1. Data dictionary
+# 2.2.1. Data dictionary
 
 The table was provided by Kaggle. 
 

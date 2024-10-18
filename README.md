@@ -64,7 +64,7 @@ In this report the only model will be use which is linear regression model.
 
 After training our model we come up with a equation like below:
 
-ŷ= 0.40 + -0.16 * Pclass + -0.07 * Age + -0.22 * Sex
+` ŷ= 0.40 + -0.16 * Pclass + -0.07 * Age + -0.22 * Sex `
 
 This equation indicate that the decrease in Pclass and the increase in Age will lead to the decrease in the total resule. If the gender is male(which is one in the model) will also decrease the survivor chance.
 

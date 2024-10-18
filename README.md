@@ -70,7 +70,7 @@ This equation indicate that the decrease in Pclass and the increase in Age will 
 
 But is this model reliable? If we looking at OLS Regression Result, we can see that the **all of the P-value is really small**, which is a good sign as every varible that we use are significant. 
 
-But when we looking at the R square, it was not really good **0.37%** not a strong relationship but in fact, it is actually a moderate relationship. 
+But when we looking at the R square - **0.37%** not a really good & strong relationship but in fact, it is actually a moderate relationship. 
 
 ![](images/OLS_Regression_Result1.png)
 

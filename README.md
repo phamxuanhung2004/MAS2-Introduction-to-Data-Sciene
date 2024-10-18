@@ -31,12 +31,36 @@ As the age is hard to predict, for null value in the Age column, we decide to dr
 As for Sex, we will change variable into 1/0(male/female).
 
 2.2.4. Model
-In this report only two model will be use which is linear regression model.
+In this report the only model will be use which is linear regression model.
 
 III. Result
 After training our model we come up with a equation like below:
+
 ŷ= 0.40 + -0.16 * Pclass + -0.07 * Age + -0.22 * Sex
 
 This equation indicate that the decrease in Pclass and the increase in Age will lead to the decrease in the total resule. If the gender is male(which is one in the model) will also decrease the survivor chance.
 
-But is this model reliable? If we looking at 
+But is this model reliable? If we looking at OLS Regression Result, we can see that the all of the P-value is really small, which is a good sign as every varible that we use are significant. 
+
+But when we looking at the R square, it was not really good. 0.37 presents not a strong relationship but infact it is actually a moderate relationship. 
+![]()
+So, should we keep trusting the model? Even though the R square is not significant enough, I think the model that we create is still acceptable.
+
+Beside, when we using score funcition to evaluate the R square it give us 0.46 which is a better result.
+
+![]()
+
+IV. Discussion
+
+When analyzing this model, it tells us something about the attribute that make we survive. 
+First is about gender and age, it actually is commonsense. In every incident, woman, the young and the old is always priority. They are the group which are more likely to receive a rescue boat than the male and adult. It may also explain why the Age value in the model has the coefficent at only 0.08 as not only the young being priority but also the old. 
+
+Second is PClass, it highly recommend that if you book the higher class in a cusine, it is more likely that you will survived. Perhaps, it happens as the higher class in a voyager is equiped with more emergency equipment that those from lower class, they have more chance to access rescue transportation than the other.
+
+V. Conclusion
+
+In the last, we want to disclaim that, there will be other models which have the capability to explain the data better than the model we use, but the linear model that we use can easily understand and analyze for most of people. Another thing we want to discuss is that this incident is quite "specific", as there are many kind of transportation accident, plus Titanic happened along time ago so it might be a little out of date with the technology, mindset and culture today. But we highly believe that the attribute we chose which is sex, age and pclass in any era still have a big impact in the survival rate of a passenger.
+
+
+
+

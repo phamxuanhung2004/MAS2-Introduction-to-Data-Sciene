@@ -50,27 +50,30 @@ The table was provided by Kaggle.
 ![](images/dictionary-table.png)
 
 
-Note: In the progress, we will change variable in Sex column into **1 (male) / 0 (female)** to make the caculation and coding easier
+`**Note**`: In the progress, we will change variable in Sex column into **1 (male) / 0 (female)** to make the caculation and coding easier
 
 
-## III. Chart analysing
+## III. Analyzing Charts
 
-3.1. Pie chart about Sex and Survived
+**3.1. Pie chart about Sex and Survived**
 This chart was made to compare the percentage of female and male in the survivor.
 
 ![](images/maleversusfemale.png)
 
 It can be tell from the chart that if someone is a female, she will have chance to survive in the Titanic incident. While the chart did not indicate that if you are a male, the percentage that you will live is 20.3%, it highlight the significant difference in the percent of female to male in the survival data.
 
-3.2. Bar chart about PClass and Survived
+**3.2. Bar chart about PClass and Survived**
 
 ![](images/barchartpclassvssurvived.png)
 
-This bar chart was made to compare the survival rate of each class in the Pclass with 1 stand for first class which is the highest class, 2 for second class and 3 for third class.
+This bar chart was made to compare the survival rate of each class in the Pclass with:
+- 1 - first class which is the highest class
+- 2 - second class
+- 3 - third class.
 
 It is clearly to see the higher the class ticket that we bought, the more survival rate that we will have.
 
-3.3. Box plot about Age and Survived
+**3.3. Box plot about Age and Survived**
 
 ![](images/boxplotagevssurvivalrate.png)
 
@@ -78,7 +81,7 @@ It is clearly to see the higher the class ticket that we bought, the more surviv
 In the boxplot, 1 stand for survived and 0 stand for non-survived. Median of both boxplot is around 28 but the part from first quartile to median of the survivor is bigger than the non survivor and there is a constrast in the part from median to third quartile that the survivors tend to be younger than the non-survival which suggest that the age of the survival tend to be younger. Both have outliers but it seem like the elder tend to be non-survivor than survivor.
 
 
-3.4. Heat map
+**3.4. Heat map**
 
 ![](images/Visualizationheatmap.png)
 

@@ -78,7 +78,14 @@ It is clearly to see the higher the class ticket that we bought, the more surviv
 ![](images/boxplotagevssurvivalrate.png)
 
 
-In the boxplot, 1 stand for survived and 0 stand for non-survived. Median of both boxplot is around 28 but the part from first quartile to median of the survivor is bigger than the non survivor and there is a constrast in the part from median to third quartile that the survivors tend to be younger than the non-survival which suggest that the age of the survival tend to be younger. Both have outliers but it seem like the elder tend to be non-survivor than survivor.
+In the boxplot:
+
+- 1 stand for survived
+- 0 stand for non-survived
+
+Median of both boxplot is around 28 but the part from first quartile to median of the survivor is bigger than the non survivor and there is a constrast in the part from median to third quartile that the survivors tend to be younger than the non-survival which suggest that the age of the survival tend to be younger.
+
+Both have outliers but it seem like the elder tend to be non-survivor than survivor.
 
 
 **3.4. Heat map**

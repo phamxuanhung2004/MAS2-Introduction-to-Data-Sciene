@@ -50,7 +50,7 @@ The table was provided by Kaggle.
 ![](images/dictionary-table.png)
 
 
-`**Note**`: In the progress, we will change variable in Sex column into **1 (male) / 0 (female)** to make the caculation and coding easier
+**`Note`**: In the progress, we will change variable in Sex column into **1 (male) / 0 (female)** to make the caculation and coding easier
 
 
 ## III. Analyzing Charts

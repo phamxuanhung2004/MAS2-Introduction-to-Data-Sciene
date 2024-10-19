@@ -9,11 +9,11 @@
 ---
 
 ## I. Introduction
-Incident can happen anytime in any era. While it takes away money, asset and human life sometimes it still can spare some survivors. 
+- Incident can happen anytime in any era. While it takes away money, asset and human life sometimes it still can spare some survivors. 
 
 When looking at the data about some incidents, we question ourselves, are survivors predictable? 
 
-Looking at the chart you can see that with the change in gender, the percent that one can survive have already been significantly different.  
+- Looking at the chart you can see that with the change in gender, the percent that one can survive have already been significantly different.  
 
 In other words, we want to find out a feature that will make an individual more likely to survive in an incident. 
 

@@ -39,7 +39,7 @@ We will use the provided data which comes from Kaggle.
 
 Kaggle gives us two excel files which include file for training and for testing model. But as the testing is provided for testing the model and not included the the data about whether the people in there survived or not, we decide to just using the the train.csv file.
 
-The data is about the Titanic incident which happened in 4/1911. From 2204 individuals on that ship, there was only 1502 people suvived after the accident.
+The data is about the Titanic incident which happened in 4/1911. **From 2204 individuals on that ship, there was only 1502 people suvived after the accident.**
 
 Eventhough there was 2204 individuals on the ship, the file we receive only contain data of 890 people.
 
@@ -67,9 +67,9 @@ It can be tell from the chart that if someone is a female, she will have chance 
 ![](images/barchartpclassvssurvived.png)
 
 This bar chart was made to compare the survival rate of each class in the Pclass with:
-- 1 - first class (the highest class)
-- 2 - second class
-- 3 - third class.
+- 1 - First class (the highest class)
+- 2 - Second class
+- 3 - Third class.
 
 It is clearly to see the higher the class ticket that we bought, the more survival rate that we will have.
 

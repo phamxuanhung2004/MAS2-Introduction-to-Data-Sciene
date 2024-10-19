@@ -100,7 +100,7 @@ When analyzing this model, it tells us something about the attribute that makes 
 
 - First: **Gender & Age** - it is actually commonsense. In every incident, woman, the young and the old is always priority. They are the group which are more likely to receive a lifeboat than the male and adult. It may also explain why the Age value in the model has the coefficent at only **0.07** as not only the young being priority but also the old.
 
-![](
+![](images/boxplotagevssurvivalrate.png)
 
 - Second: **PClass** - it highly recommends that if you book the higher class in a voyage, it is more likely that you will survived. Perhaps, it happens as the higher class in a voyager is equipped with more emergency equipment that the individuals from lower class have more chance to access rescue transportation than the other people in different classes.
 

@@ -1,6 +1,7 @@
 # Group 7 Report: 🚢 Titanic Incident Analyzing
 
 Member:
+
 Phạm Xuân Hưng: 22080317
 
 Vũ Tiến Phúc: 22080336

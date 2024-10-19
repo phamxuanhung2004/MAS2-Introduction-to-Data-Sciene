@@ -134,4 +134,5 @@ From the chart and the model, it tells us something about the attribute that mak
 
 ## V. Conclusion
 
-- In the last, we want to disclaim that, this incident is quite "specific", as there are many kinds of transportation accidents, plus Titanic happened along time ago so it might be a little out of date with the technology, mindset and culture today. So using it as the data to build a prediction model might not really good. But we highly believe that the attribute we visualized which is sex, age and pclass in any era still have a big impact in the survival rate of a passenger.
+- In the last, we want to disclaim that, this incident is quite "specific", as there are many kinds of transportation accidents, plus Titanic happened along time ago so it might be a little out of date with the technology, mindset and culture today.
+- So using it as the data to build a prediction model might not really good. But we highly believe that the attribute we visualized which is sex, age and pclass in any era still have a big impact in the survival rate of a passenger.

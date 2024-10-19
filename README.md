@@ -13,7 +13,7 @@
 
 `This report was written to create a model capable of predicting whether a traveler survived or not `
 
-`In the model: Gender, Age & Pclass will be included and we will use 2 Machine Learning Method (Linear regression) `
+`In the model: Gender, Age & Pclass will be included and we will use Machine Learning Method (Linear regression) `
 
 ---
 
@@ -35,7 +35,7 @@ This report will use some predict models to answer this question.
 
 While there are many infamous incidents, the data we will use belong to Titanic incident which happened in 1911. 
 
-From 2204 individuals on that ship in 4/1911, there was **`only 1502 people suvived`** after the accident.
+- From 2204 individuals on that ship in 4/1911, there was **`only 1502 people suvived`** after the accident.
 
 ---
 

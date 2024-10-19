@@ -21,11 +21,11 @@ Lương Việt Hoàng: 22080313
 ---
 
 ## I. Introduction
-Incident can happen anytime in any era. While it takes away money, asset and human life sometimes it still can spare some survivors. 
+- Incident can happen anytime in any era. While it takes away money, asset and human life sometimes it still can spare some survivors. 
 
-When looking at the data about some incidents, we question ourselves, are survivors predictable? 
+- When looking at the data about some incidents, we question ourselves, are survivors predictable? 
 
-Looking at the chart you can see that with the change in gender, the percent that one can survive have already been significantly different.  
+- Looking at the chart you can see that with the change in gender, the percent that one can survive have already been significantly different.  
 
 In other words, we want to find out a feature that will make an individual more likely to survive in an incident. 
 
@@ -106,8 +106,8 @@ When analyzing this model, it tells us something about the attribute that makes 
 
 ## V. Conclusion
 
-In the last, we want to disclaim that, there will be other models which have the capability to explain the data better than the model we use, but the linear model that we use can easily understand and analyze for most of people. 
+- In the last, we want to disclaim that, there will be other models which have the capability to explain the data better than the model we use, but the linear model that we use can easily understand and analyze for most of people. 
 
-Another thing we want to discuss is that this incident is quite "specific", as there are many kinds of transportation accidents, plus Titanic happened along time ago so it might be a little out of date with the technology, mindset and culture today. 
+- Another thing we want to discuss is that this incident is quite "specific", as there are many kinds of transportation accidents, plus Titanic happened along time ago so it might be a little out of date with the technology, mindset and culture today. 
 
 But we highly believe that the attribute we chose which is sex, age and pclass in any era still have a big impact in the survival rate of a passenger.

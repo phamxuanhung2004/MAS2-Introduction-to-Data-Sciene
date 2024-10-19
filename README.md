@@ -1,16 +1,13 @@
 # Group 7 Report: 🚢 Titanic Incident Analyzing
 
-**Members**:
+| **Members** | Code |
+| --- | --- |
+| Phạm Xuân Hưng | `22080317` |
+| Vũ Tiến Phúc | `22080336` |
+| Trần Kim Quang Minh | `22080329` |
+| Nguyễn Văn Ngọc Sơn | `22080341` |
+| Lương Việt Hoàng | `22080313` |
 
-Phạm Xuân Hưng: 22080317
-
-Vũ Tiến Phúc: 22080336
-
-Trần Kim Quang Minh: 22080329
-
-Nguyễn Văn Ngọc Sơn: 22080341
-
-Lương Việt Hoàng: 22080313
 
 ***`Abstract:`***
 

@@ -31,9 +31,9 @@
 
 ---
 
-## II. Data processing
+## II. Data Processing
 
-### 2.1. Source of data
+### 2.1. Source of Data
 
 We will use the provided data which comes from Kaggle. 
 
@@ -43,7 +43,7 @@ Kaggle gives us two excel files which include file for training and for testing 
 
 - Eventhough there was 2204 individuals on the ship, **we receive the file only contained data of 890 people.**
 
-### 2.2. Data dictionary
+### 2.2. Data Dictionary
 
 The table was provided by Kaggle. 
 
@@ -65,7 +65,7 @@ It can be told from the chart that if someone is female, she will have chance to
 
 While the chart did not indicate that if you are a male, the percentage that you will live is 20.3%, it highlights the significant difference in the percent of female to male in the survival data.
 
-**3.2. Bar chart about PClass and Survived**
+**3.2. Bar Chart about PClass and Survived**
 
 ![](images/barchartpclassvssurvived.png)
 
@@ -76,7 +76,7 @@ This bar chart was made to compare the survival rate of each class in the Pclass
 
 It is clearly to see the higher the class ticket that we bought, the more survival rate that we will have.
 
-**3.3. Box plot about Age and Survived**
+**3.3. Box Plot about Age and Survived**
 
 ![](images/boxplotagevssurvivalrate.png)
 
@@ -93,7 +93,7 @@ And there is a constrast in the part from median to third quartile that the surv
 Both have outliers but it seems like the elder tend to be non survivor than survivor.
 
 
-**3.4. Heat map**
+**3.4. Heat Map**
 
 ![](images/Visualizationheatmap.png)
 

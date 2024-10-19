@@ -1,6 +1,6 @@
 # Group 7 Report: 🚢 Titanic Incident Analyzing
 
-Member:
+**Members**:
 
 Phạm Xuân Hưng: 22080317
 

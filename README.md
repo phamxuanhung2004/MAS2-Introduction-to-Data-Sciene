@@ -22,60 +22,52 @@
 
 - When looking at the data about some incidents, we question ourselves, are survivors predictable? 
 
-- Looking at the chart you can see that with the change in gender, the percent that one can survive have already been significantly different.  
+- In this report, we will visualize some data in the given file, to give a clearer picture about the answer to the question above
 
-In other words, we want to find out a feature that will make an individual more likely to survive in an incident. 
+-Beside, we will have a bonus part which include a heat map and a simple regression model to predict with the given input, whether an individual will survive or not.
 
-This report will use some predict models to answer this question. 
-
-![](images/maleversusfemale.png)
 
 ![](images/barchartpclassvssurvived.png)
 
-
-While there are many infamous incidents, the data we will use which belongs to Titanic incident happened in 1911. 
-
-- From 2204 individuals on that ship in 4/1911, there was **`only 1502 people suvived`** after the accident.
-
 ---
 
-## II. Methodology
+## II. Data processing
 
 ### 2.1. Source of data
 
 We will use the provided data which comes from Kaggle. 
 
-Kaggle gives us two excel files which include file for training and for testing model. We will only use train.csv for our model.
+Kaggle gives us two excel files which include file for training and for testing model. But as the testing is provided for testing the model and not included the the data about whether the people in there survived or not, we decide to just using the the train.csv file.
 
-### 2.2. Variable
+The data is about the Titanic incident which happened in 4/1911. From 2204 individuals on that ship, there was only 1502 people suvived after the accident.
 
-### 2.2.1. Data dictionary
+Eventhough there was 2204 individuals on the ship, the file we receive only contain data of 890 people.
+
+### 2.2. Data dictionary
 
 The table was provided by Kaggle. 
 
 ![](images/dictionary-table.png)
 
-### 2.2.2. Variable Selection
 
-![](images/coefficientvisualization1.png)
+Note: In the progress, we will change variable in Sex column into **1 (male) / 0 (female)** to make the caculation and coding easier
 
-In the model we created, we will only use three variables which is **Sex Age Pclass**.
 
-### 2.2.3. Preprocessing data
+## III. Chart analysing
 
-As the Age is hard to predict, for Null values in the Age column, we decide to drop it. 
+3.1. Pie chart
+This chart was made to compare the percentage of female and male in the survivor.
 
-As for Sex, we will change variable into **1 (male) / 0 (female)**
+![](images/maleversusfemale.png)
 
-### 2.2.4. Model
-In this report the only model will be use which is linear regression model.
+It can be tell from the chart that if someone is a female, she will have chance to survive in the Titanic incident. While the chart did not indicate that if you are a male, the percentage that you will live is 20.3%, it highlight the significant difference in the percent of female to male in the survival data.
 
----
+3.2. Bar chart
 
 ## III. Result
 
 After training our model, we come up with a equation like below:
-
+![](images/coefficientvisualization1.png)
 **` ŷ= 0.40 + -0.16 * Pclass + -0.07 * Age + -0.22 * Sex `**
 
 - This equation indicates that the decrease in Pclass & the increase in Age will lead to the decrease in the total resule. If the gender is male(which is one in the model) will also decrease the survivor chance.

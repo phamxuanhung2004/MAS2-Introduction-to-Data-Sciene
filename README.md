@@ -24,7 +24,7 @@
 
 - In this report, we will visualize some data in the given file by some chart, to give a clearer picture about the answer to the question above
 
--Beside, we will have a bonus part which include a simple regression model to predict with the given input, whether an individual will survive or not.
+- Beside, we will have a bonus part which include a simple regression model to predict with the given input, whether an individual will survive or not.
 
 
 
@@ -92,7 +92,7 @@ We used linear regression model with three variable which is Pclass, Age and Sex
 
 - This equation indicates that the decrease in Pclass & the increase in Age will lead to the decrease in the total result. If the gender is male(which is one in the model) will also decrease the survivor chance.
 
-- But is this model reliable? If we look at OLS Regression Result, we can see that **all of the P-value is really small**, which is a good sign as every variables that we use are significant. 
+- Is this model reliable? If we look at OLS Regression Result, we can see that **all of the P-value is really small**, which is a good sign as every variables that we use are significant. 
 
 But when we look at the R square: **0.37** - not a really good & strong relationship but in fact, it is actually a moderate relationship. 
 

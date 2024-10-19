@@ -67,7 +67,7 @@ It can be tell from the chart that if someone is a female, she will have chance 
 ![](images/barchartpclassvssurvived.png)
 
 This bar chart was made to compare the survival rate of each class in the Pclass with:
-- 1 - first class which is the highest class
+- 1 - first class (the highest class)
 - 2 - second class
 - 3 - third class.
 

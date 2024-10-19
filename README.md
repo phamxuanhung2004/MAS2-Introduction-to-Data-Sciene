@@ -41,7 +41,7 @@ Kaggle gives us two excel files which include file for training and for testing 
 
 The data is about the Titanic incident which happened in 4/1911. **From 2204 individuals on that ship, there was only 1502 people suvived after the accident.**
 
-Eventhough there was 2204 individuals on the ship, the file we receive only contain data of 890 people.
+Eventhough there was 2204 individuals on the ship, **the file we receive only contain data of 890 people.**
 
 ### 2.2. Data dictionary
 
@@ -56,11 +56,12 @@ The table was provided by Kaggle.
 ## III. Analyzing Charts
 
 **3.1. Pie chart about Sex and Survived**
+
 This chart was made to compare the percentage of female and male in the survivor.
 
 ![](images/maleversusfemale.png)
 
-It can be tell from the chart that if someone is a female, she will have chance to survive in the Titanic incident. While the chart did not indicate that if you are a male, the percentage that you will live is 20.3%, it highlight the significant difference in the percent of female to male in the survival data.
+It can be told from the chart that if someone is female, she will have chance to survive in the Titanic incident. While the chart did not indicate that if you are a male, the percentage that you will live is 20.3%, it highlights the significant difference in the percent of female to male in the survival data.
 
 **3.2. Bar chart about PClass and Survived**
 
@@ -80,23 +81,25 @@ It is clearly to see the higher the class ticket that we bought, the more surviv
 
 In the boxplot:
 
-- 1 stand for survived
-- 0 stand for non-survived
+- 1 - Survived
+- 0 - Non-survived
 
-Median of both boxplot is around 28 but the part from first quartile to median of the survivor is bigger than the non survivor and there is a constrast in the part from median to third quartile that the survivors tend to be younger than the non-survival which suggest that the age of the survival tend to be younger.
+Median of both boxplot is around 28 but the part from first quartile to median of the survivor is bigger than the non survivor.
 
-Both have outliers but it seem like the elder tend to be non-survivor than survivor.
+And there is a constrast in the part from median to third quartile that the survivors tend to be younger than the non-survival which suggest that the age of the survival tend to be younger.
+
+Both have outliers but it seems like the elder tend to be non survivor than survivor.
 
 
 **3.4. Heat map**
 
 ![](images/Visualizationheatmap.png)
 
-The heat map showing the correlation with variable to each other. It can be tell from the heat map that Pclass, Age, Fare, Sex and Parch(the number of parents/children abroad Titanic) have the highest correlation to the survival rate. Although, Fare also have a high correlation with survived, it also have a high correlation with PClass. It is obvious as Fare is the amount of money you pay for the ticket. It suggest that we should use just one of the variable if we intend to do regression as it might cause multicollinear.
+The heat map shows the correlation with variable to each other. It can be told from the heat map that Pclass, Age, Fare, Sex and Parch(the number of parents/children abroad Titanic) have the highest correlation to the survival rate. Although, Fare also have a high correlation with survived, it also has a high correlation with PClass. It is obvious as Fare is the amount of money you pay for the ticket. It suggest that we should use just one of the variable if we intend to do regression as it might cause multicollinear.
 
 ## IV. Regression
 
-We used linear regression model with three variable which is Pclass, Age and Sex
+We used linear regression model with three variables which is Pclass, Age and Sex
 
 **`ŷ= 0.40 + -0.16 * Pclass + -0.08 * Age + -0.23 * Sex `**
 

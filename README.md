@@ -39,9 +39,9 @@ We will use the provided data which comes from Kaggle.
 
 Kaggle gives us two excel files which include file for training and for testing model. But as the testing is provided for testing the model and not included the the data about whether the people in there survived or not, we decide to just using the the train.csv file.
 
-The data is about the Titanic incident which happened in 4/1911. **From 2204 individuals on that ship, there was only 1502 people suvived after the accident.**
+- The data is about the Titanic incident which happened in 4/1911. **From 2204 individuals on that ship, there was only 1502 people suvived after the accident.**
 
-Eventhough there was 2204 individuals on the ship, **we receive the file only contained data of 890 people.**
+- Eventhough there was 2204 individuals on the ship, **we receive the file only contained data of 890 people.**
 
 ### 2.2. Data dictionary
 

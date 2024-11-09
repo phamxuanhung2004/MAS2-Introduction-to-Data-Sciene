@@ -1,6 +1,7 @@
 # **Group 7 Report: 🚢 Titanic Incident Analyzing**
 
-**Abstract**: 
+`Abstract:` 
+
 This report was written to create a model capable of predicting whether a traveler survived or not. In the model, Gender, Age and Pclass will be included, and we will use two machine learning method which is K Nearest Neighbor and Logistic regression to predict survival chance. Two model will be compared to each other and to the base to find predicting accuracy. Lastly, we will try to deduce the result that we have.
 
 # I.	Introduction
@@ -10,13 +11,13 @@ In this report, we intended to use two kind of classification machine learning m
 
 # II. Methodology
 
-**2.1. Source of data**
-We will use the provided data which come from Kaggle which is a excel file Train.csv (we also uploaded it on Github). The data was recorded during the incident, and it contains numorous information of 890 passagers on that ship. 
-<br>
-2.2. Variable
-<br>
+**2.1. Source of Data**
 
-**2.2.1. Data dictionary**
+We will use the provided data which come from Kaggle which is a excel file Train.csv (we also uploaded it on Github). The data was recorded during the incident, and it contains numorous information of 890 passagers on that ship. 
+
+**2.2. Variable**
+
+***2.2.1. Data Dictionary***
 <br>
 <table>
   <tr>
@@ -94,7 +95,7 @@ Parent = mother, father
 Child = daughter, son, stepdaughter, stepson
 Some children travelled only with a nanny, therefore parch=0 for them.
 
-**2.2.2. Variable Selection**
+***2.2.2. Variable Selection***
 <br>
 There are many variables provided, but in the model, we decide to use four independent variables which is Sex, Age, Pclass, Embarked. For dependent variable, we will use Survived for our model. 
 The reason we choose these variables is based on three filters. 
@@ -112,7 +113,7 @@ For Sex column, we will convert the male/female into 1/0 as model we use from sc
 
 **2.4. Data Visualizing**
 <br>
-2.4.1. Pie chart about Sex and Survived
+***2.4.1. Pie chart about Sex and Survived***
 <br>
 This chart was made to compare the percentage of female and male in the survivor.
 <br>
@@ -121,7 +122,7 @@ This chart was made to compare the percentage of female and male in the survivor
 It can be told from the chart that if someone is female, she will have chance to survive in the Titanic incident.
 While the chart did not indicate that if you are a male, the percentage that you will live is 20.3%, it highlights the significant difference in the percent of female to male in the survival data.
 <br>
-**2.4.2. Bar Chart about PClass and Survived**
+***2.4.2. Bar Chart about PClass and Survived***
 
 ![image](https://github.com/user-attachments/assets/e06f85cb-73a1-4959-bee1-c8fd22821133)
 <br>
@@ -134,14 +135,14 @@ This bar chart was made to compare the survival rate of each class in the Pclass
 •	3 - Third class.
 It is clearly to see the higher the class ticket that we bought, the more survival rate that we will have.
 <br>
-**2.4.3 Density plot**
+***2.4.3 Density plot***
 <br>
 ![image](https://github.com/user-attachments/assets/8d2ac81b-5d74-4094-b65d-5dbf48f65ab7)
 <br>
 The chart shows the age distribution of passengers who survived and those who did not survive in the Titanic case.
 Firstly, 80 years old and 4 months old are the oldest and youngest passenger on the ship, with the average passenger's age is nearly 30. From the chart, we can see that the survival probabilities from the age 40 to 60 are similar for both groups. The peak on 'Survived = 1' shows the range is less than the 'Survived = 0' one, which means people who are in the age of 20 to 30 have less chance to survive than expected. We could see the curve of 'Survived=1' is moved towards younger ages than 'Survived=0', it means that younger passengers have higher chance to survive.
 <br>
-**2.4.4. Line plots**
+***2.4.4. Line plots***
 <br>
 ![image](https://github.com/user-attachments/assets/cbad19db-2e08-470f-9a79-58fd3d570ef1)
 <br>

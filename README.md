@@ -96,7 +96,7 @@ Child = daughter, son, stepdaughter, stepson
 Some children travelled only with a nanny, therefore parch=0 for them.
 
 ***2.2.2. Variable Selection***
-<br>
+
 There are many variables provided, but in the model, we decide to use four independent variables which is Sex, Age, Pclass, Embarked. For dependent variable, we will use Survived for our model. 
 The reason we choose these variables is based on three filters. 
 First, we check the null value of each column and it turn out there are 177 rows of Age column, 687 rows of Cabin column and 2 rows of Embarkes columns is missing. While we can ‘fix’ Age and Embarked columns, we do not think that is possible to use a column with approximately 80% missing data like Cabin.
@@ -112,13 +112,13 @@ For Embarked, there were only 2 missing data, so we decide to drop it. We also t
 For Sex column, we will convert the male/female into 1/0 as model we use from sckitlearn only take numerical input.
 
 **2.4. Data Visualizing**
-<br>
+
 ***2.4.1. Pie chart about Sex and Survived***
-<br>
+
 This chart was made to compare the percentage of female and male in the survivor.
-<br>
+
 ![image](https://github.com/user-attachments/assets/c24de14d-1e92-48da-a488-18c2f90a8130)
-<br>
+
 It can be told from the chart that if someone is female, she will have chance to survive in the Titanic incident.
 While the chart did not indicate that if you are a male, the percentage that you will live is 20.3%, it highlights the significant difference in the percent of female to male in the survival data.
 <br>

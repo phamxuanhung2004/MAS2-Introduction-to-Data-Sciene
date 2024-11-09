@@ -1,4 +1,5 @@
 Abstract 
+
 This report was written to create a model capable of predicting whether a traveler survived or not. In the model, Gender, Age and Pclass will be included, and we will use two machine learning method which is K Nearest Neighbor and Logistic regression to predict survival chance. Two model will be compared to each other and to the base to find predicting accuracy. Lastly, we will try to deduce the result that we have.
 
 I.	Introduction

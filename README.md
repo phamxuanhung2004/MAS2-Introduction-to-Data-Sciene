@@ -3,7 +3,7 @@
 **Abstract**: 
 This report was written to create a model capable of predicting whether a traveler survived or not. In the model, Gender, Age and Pclass will be included, and we will use two machine learning method which is K Nearest Neighbor and Logistic regression to predict survival chance. Two model will be compared to each other and to the base to find predicting accuracy. Lastly, we will try to deduce the result that we have.
 
-I.	Introduction
+# I.	Introduction
 
 Titanic has always been a disaster when talking about voyage. The incident took place way back on April 15th, 1912, when the Titanic sank during its first voyage after striking an iceberg, resulting in the tragic loss of 1502 passengers and crew out of a total of 2224.This sensational tragedy horrified the international community and led towards action taking by formulating better safety regulations for ships. While it is still controversial about who took responsibility of the incident, we can agree that there are certain characteristics share between survivors. In this report, we try to find out what features will likely make an individual survive in the Titanic incident and perhaps in a disaster.
 In this report, we intended to use two kind of classification machine learning method which are KNN and Logistic Regression.

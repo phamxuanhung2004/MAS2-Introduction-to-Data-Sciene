@@ -126,7 +126,7 @@ This chart was made to compare the percentage of female and male in the survivor
 
 ![image](https://github.com/user-attachments/assets/c24de14d-1e92-48da-a488-18c2f90a8130)
 
-It can be told from the chart that if someone is female, she will have chance to survive in the Titanic incident.
+It can be told from the chart that if someone is female, they would  have chance to survive in the Titanic incident.
 While the chart did not indicate that if you are a male, the percentage that you will live is 20.3%, it highlights the significant difference in the percent of female to male in the survival data.
 <br>
 ***2.4.2. Bar Chart about PClass and Survived***

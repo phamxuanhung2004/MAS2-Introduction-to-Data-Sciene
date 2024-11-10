@@ -119,7 +119,11 @@ The reason we choose Pclass instead of Fare is continuous variable, which is mor
 The data that we receive is not cleaned. There are numerous of null value in the Age column, beside the model can run on str data like what we have in Sex column.
 
 <ins>For Age</ins>, column we decide to fill the null value with mean of all the rows in column as there are around 177 missing rows, around 20% of the data, dropping it might lead to less accuracy of the model in general. While filling null value with mean might not improve the accuracy, more accurate age prediction will involve other machine learning model (like random forest), which might extend our presentation’s time too much. 
+
+
 <ins>For Embarked</ins>, there were only 2 missing data, so we decide to drop it. We also turn the type of data into numerical. S/C/Q is converted into 0/1/2.
+
+
 <ins>For Sex</ins>, we will convert the male/female into 1/0 as model we use from sckitlearn only take numerical input.
 
 **2.4. Data Visualizing**

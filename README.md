@@ -170,6 +170,8 @@ For this project, two models were selected:
 2. K nearest neighbor
 <br>   
 The reason while we use these two models in this report instead of linear regression is that we realize our task is classification, which will give the outcome is categorical data not regression which will give a continous outcome.
+
+
 Before using this model, we used a pair plot to simply visualize the model.
 
 ![](images/pairplot.png)

@@ -171,6 +171,10 @@ For this project, two models were selected:
 <br>   
 The reason while we use these two models in this report instead of linear regression is that we realize our task is classification, which will give the outcome is categorical data not regression which will give a continous outcome.
 Before using this model, we used a pair plot to simply visualize the model.
+
+![](images/pairplot.png)
+
+
 As we can see from the chart, most of the variables that we choose has a normal distribution. While age looks a little bit screwed, we think it is still acceptable.
 
 # III. Result

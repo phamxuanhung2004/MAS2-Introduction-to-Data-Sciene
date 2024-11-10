@@ -105,7 +105,11 @@ There are many variables provided, but in the model, we decide to use four indep
 The reason we choose these variables is based on three filters: 
 <br>
 <ins>Firstly,</ins> we check the null value of each column and it turn out there are 177 rows of Age column, 687 rows of Cabin column and 2 rows of Embarkes columns is missing. While we can ‘fix’ Age and Embarked columns, we do not think that is possible to use a column with approximately 80% missing data like Cabin.
+
+
 <ins>Secondly,</ins> from the heatmap chart that we included, we can see that Sibsp has low coefficient, so we did not include it in the model. While Fare has a high coefficient, it also has high coefficient with the Pclass so we will also not gonna use that.
+
+
 **Note:** 
 The reason we choose Pclass instead of Fare is continuous variable, which is more suitable for the regression task.
 <ins>Thirdly,</ins> we have conducted a test Logistic Regression model and perform Z-test, the test result suggest that we should not use Parch as it is not statistically significant (at z=0.05).

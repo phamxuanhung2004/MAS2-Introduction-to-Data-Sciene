@@ -236,9 +236,9 @@ From our perspective, to increase the accuracy of both models, the data need to 
   <tr>
     <td>22080317</td>
     <td>Phạm Xuân Hưng (Leader)</td>
-  td Logistic regression, comparation for Logistic model and Knn model, writing report, supervised other tasks</td>
-  <td> </td>
-  <td>100%</td>
+    <td> Logistic regression, comparation for Logistic model and Knn model, writing report, supervised other tasks</td>
+    <td> </td>
+    <td>100%</td>
   </tr>
   <tr>
     <td>220803</td>
@@ -251,16 +251,15 @@ From our perspective, to increase the accuracy of both models, the data need to 
     <td>100%</td>
   </tr>
   <tr>
-  <td>  td 22080313 </td>
-  <td>Lương Việt Hoàng</td>
-  <td>2 charts for visualizing data, slide</td>
-  <td></td>
-<td>100%</td>
-
+    <td>22080313 </td>
+    <td>Lương Việt Hoàng</td>
+    <td>2 charts for visualizing data, slide</td>
+    <td></td>
+    <td>100%</td>
   </tr>
   <tr>
     <td>22080341</td>
-  <td>Nguyễn Văn Ngọc Sơn</td>
+    <td>Nguyễn Văn Ngọc Sơn</td>
     <td>Cleaning data</td>
     <td></td>
     <td>100%</td>

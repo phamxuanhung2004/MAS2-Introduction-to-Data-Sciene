@@ -243,7 +243,7 @@ From our perspective, to increase the accuracy of both models, the data need to 
   <tr>
     <td>22080336</td>
     <td>Vũ Tiến Phúc</td>
-    <td>Knn, slide</td>
+    <td>KNN, slide</td>
     <td></td>
     <td>100%</td>
   </tr>

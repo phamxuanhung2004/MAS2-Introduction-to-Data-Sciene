@@ -241,7 +241,7 @@ From our perspective, to increase the accuracy of both models, the data need to 
     <td>100%</td>
   </tr>
   <tr>
-    <td>22080326</td>
+    <td>22080336</td>
     <td>Vũ Tiến Phúc</td>
     <td>Knn, slide</td>
     <td></td>

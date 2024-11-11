@@ -223,7 +223,7 @@ It can tell from the model that KNN is better in recognizing the negative value 
 
 As the feature importance analysis of the logistic model indicated that Sex and Pclass have a bigger impact on the model than Age and Embarked. This can be explained as women is often be prioritised in an incident and high social-economic status have more chance to access to the rescue, so it has a strong relationship with the outcome. For Age and Embarked values, it can be explained by the Facetgrid that we make as we can see that the distribution for survived and non-survived is quite similar, so the pattern between the age and the survived rate is not strong. For Embarked, from qualitative perspective, we hardly can see the relationship between the port that start traveling and the survival rate of ourselves in the first place, so deeper research needs to be taken to understand this relationship between it.
 
-From our perspective, to increase the accuracy of both models, the data need to have less null value, as we indicate in the `2.3` part , there are 177 rows is missing, which is around 20% of the given data, itdecrease the accuracy of both model and might be the reason why the coefficient of Age is low. Beside, the provided data also have a limited variables and some of it can not be used for analysis (like name, ticket number, cabin) make it might make the model underfitting.
+From our perspective, to increase the accuracy of both models, the data need to have less null value, as we indicate in the `2.3` part , there are 177 rows is missing, which is around 20% of the given data, it decreases the accuracy of both model and might be the reason why the coefficient of Age is low. Beside, the provided data also have a limited variables and some of it can not be used for analysis (like name, ticket number, cabin) make it might make the model underfitting.
 # Leader's group evaluation
 <table>
   <tr>
@@ -236,7 +236,7 @@ From our perspective, to increase the accuracy of both models, the data need to 
   <tr>
     <td>22080317</td>
     <td>Phạm Xuân Hưng (Leader)</td>
-    <td> Logistic regression, comparision for Logistic model and Knn model, writing report, supervised other tasks</td>
+    <td> Logistic regression, writing report, supervised other tasks</td>
     <td> </td>
     <td>100%</td>
   </tr>

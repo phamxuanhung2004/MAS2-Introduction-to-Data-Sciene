@@ -243,7 +243,7 @@ From our perspective, to increase the accuracy of both models, the data need to 
   <tr>
     <td>22080326</td>
     <td>Ngô Tiến Phúc</td>
-    <td>Knn, slide, 2 charts depiction</td>
+    <td>Knn, slide</td>
     <td></td>
     <td>100%</td>
   </tr>
@@ -257,7 +257,7 @@ From our perspective, to increase the accuracy of both models, the data need to 
   <tr>
     <td>22080313 </td>
     <td>Lương Việt Hoàng</td>
-    <td>2 charts for visualizing data, slide</td>
+    <td>2 charts for visualizing data</td>
     <td></td>
     <td>100%</td>
   </tr>

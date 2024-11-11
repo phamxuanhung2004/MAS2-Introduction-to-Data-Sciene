@@ -217,7 +217,7 @@ For better comparing, we use a barchart to visualize the metrics of two models.
 <br>
 ![image](https://github.com/user-attachments/assets/0b7b219a-3226-4760-8fc9-07c8d8c635df)
 <br>
-It can tell from the model that KNN is better in recognizing the negative value with specificity higher than the outcome of the logistic regression. It also predicted the positive value with more accuracy, but logistic model makes less error than KNN model, according to the high recall. The result above can be explained as the logistic regression model is created to have at least False Negative value. When balancing both precision and recall we got F1 score which the value of logistic regression model is little bit higher indicate that logistic model has a better performs in predicting the Positive values. But in general, KNN seem to be a little bit better than the logistic regression as it has higher accuracy.
+It can tell from the model that KNN is better in recognizing the negative value with specificity higher than the outcome of the logistic regression. It also predicted the positive value with more precision, but logistic model makes less error than KNN model, according to the high recall. The result above can be explained as the logistic regression model is created to have at least False Negative value. When balancing both precision and recall we got F1 score which the value of logistic regression model is little bit higher indicate that logistic model has a better performs in predicting the Positive values. But in general, KNN seem to be a little bit better than the logistic regression as it has higher accuracy.
 
 # IV. Conclusion
 

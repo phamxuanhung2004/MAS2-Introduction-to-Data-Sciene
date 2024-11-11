@@ -227,12 +227,12 @@ From our perspective, to increase the accuracy of both models, the data need to 
 # Leader's group evaluation
 <table>
   <tr>
-  <th>Student number</th>
-  <th>Student name</th>
-  <th>Tasks done </th>
-  <th>Remark by Leader</th>
-  <th>Student Evaluation</th>
-</tr>
+    <th>Student number</th>
+    <th>Student name</th>
+    <th>Tasks done </th>
+    <th>Remark by Leader</th>
+    <th>Student Evaluation</th>
+    </tr>
   <tr>
     <td>22080317</td>
     <td>Phạm Xuân Hưng (Leader)</td>
@@ -241,7 +241,11 @@ From our perspective, to increase the accuracy of both models, the data need to 
     <td>100%</td>
   </tr>
   <tr>
-    <td>220803</td>
+    <td>22080326</td>
+    <td>Ngô Tiến Phúc</td>
+    <td>Knn, slide, 2 charts depiction</td>
+    <td></td>
+    <td>100%</td>
   </tr>
   <tr>
     <td>22080329</td>

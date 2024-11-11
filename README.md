@@ -208,7 +208,7 @@ After testing the model, it gives us a confusion matrix that we will visualize b
 <br>
 ![image](https://github.com/user-attachments/assets/de23aaa5-d03e-4d0f-8c7f-2ef9f81aceea)
 <br>
-Different color represents the density of the value for it part of the matrix. And similarly, to the logistic regression, most of the predicted value is right. But comparing to the logistic model, KNN has a slightly better accuracy (74%, comparing to 72% of logistic regression model) and it also predicted non-survived (true negative value) better. 
+Different color represents the density of the value for its part of the matrix. And similarly, to the logistic regression, most of the predicted value is right. But comparing to the logistic model, KNN has a slightly better accuracy (74%, comparing to 72% of logistic regression model) and it also predicted non-survived (true negative value) better. 
 We also added a ROC curve, which indicating that the model performance quite well. 
 <br>
 ![image](https://github.com/user-attachments/assets/a4866a25-bae8-442d-ab37-3887e4df8935)

@@ -226,7 +226,7 @@ As the feature importance analysis of the logistic model indicated that Sex and 
 From our perspective, to increase the accuracy of both models, the data need to have less null value, as we indicate in the `2.3` part , there are 177 rows is missing, which is around 20% of the given data, itdecrease the accuracy of both model and might be the reason why the coefficient of Age is low. Beside, the provided data also have a limited variables and some of it can not be used for analysis (like name, ticket number, cabin) make it might make the model underfitting.
 # Leader's group evaluation
 <table>
-  <tr></tr>
+  <tr>
   <th>Student number</th>
   <th>Student name</th>
   <th>Tasks done </th>
@@ -244,23 +244,25 @@ From our perspective, to increase the accuracy of both models, the data need to 
     <td>220803</td>
   </tr>
   <tr>
-    <td>22080329
+    <td>22080329</td>
     <td>Trần Kim Quang Minh</td>
     <td>2 charts for visualizing data, slide</td>
     <td></td>
     <td>100%</td>
   </tr>
   <tr>
-    td 22080313 </td>
+  <td>  td 22080313 </td>
   <td>Lương Việt Hoàng</td>
   <td>2 charts for visualizing data, slide</td>
-</table>100%></td>
+  <td></td>
+<td>100%</td>
 
   </tr>
   <tr>
     <td>22080341</td>
   <td>Nguyễn Văn Ngọc Sơn</td>
     <td>Cleaning data</td>
+    <td></td>
     <td>100%</td>
   </tr>
 </table>

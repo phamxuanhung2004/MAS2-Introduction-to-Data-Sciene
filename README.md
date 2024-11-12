@@ -161,7 +161,7 @@ Firstly, 80 years old and 4 months old are the oldest and youngest passenger on 
 <br>
 ![image](https://github.com/user-attachments/assets/cbad19db-2e08-470f-9a79-58fd3d570ef1)
 <br>
-Mostly passenegers boarded from S, especially in Pclass = 3. Female passengers have better survival rate than male, especially in Pclass = 1 & 2. And the chart shows the survival rate of Pclass = 3 is the lowest chance to survive especially the embarked = S, which means it was about money they pay for. The survival in Embarked = Q only/mostly have passengers from Pclass=3, but men in this 'embarked' are unlukiest to survive.
+Mostly passenegers boarded from S, especially in Pclass = 3. Female passengers have better survival rate than male, especially in Pclass = 1 & 2. And the chart shows the survival rate of Pclass = 3 is the lowest chance to survive especially the embarked = S, which means it was about money they pay for. The survival in Embarked = Q only/mostly have passengers from Pclass=3, but men in this 'embarked' are the unluckiest to survive.
 
 **2.5. Models Used**
 <br>

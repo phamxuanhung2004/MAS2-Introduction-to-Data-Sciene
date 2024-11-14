@@ -109,7 +109,7 @@ The reason we choose these variables is based on three filters:
 
 <ins>Secondly,</ins> from the heatmap chart that we included, we can see that Sibsp has low coefficient, so we did not include it in the model. While Fare has a high coefficient, it also has high coefficient with the Pclass so we will also not gonna use that.
 <br>
-![](
+![](images/heatmap.png)
 
 
 **Note:** 
